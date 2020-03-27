@@ -33,6 +33,13 @@ function addAll(){
 
 addAll();
 
+function addAll(){
+	 addString("","A")
+	 .then(res =>  addString(res, "B"))
+	 .then(res =>  addString(res, "C"))
+	 .then(res => 	console.log(res))
+	}
+
 var officers = [
   { id: 20, name: 'Captain Piett' },
   { id: 24, name: 'General Veers' },
