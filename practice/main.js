@@ -18,6 +18,7 @@ async function addAll(){
 
 }
 addAll();
+
 function addAll(){
 	 addString("","A")
 	 .then(res => {
